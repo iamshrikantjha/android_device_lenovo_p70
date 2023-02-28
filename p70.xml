@@ -1,8 +1,3 @@
-<manifest>
-	<project path="device/lenovo/p70" name="android_device_lenovo_p70" remote="TeamWin" revision="android-5.1" />
-</manifest>
-
-
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
