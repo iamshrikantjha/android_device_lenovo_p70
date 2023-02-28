@@ -13,14 +13,14 @@
 
     <remote name="device"
             fetch="https://github.com"
-            revision="lineage-16.0"/>
+            revision="device"/>
 
     <remote name="kernel"
             fetch="https://github.com"
             revision="master"/>
 
     <!--Device Trees-->
-    <project path="device/lenovo/p70" name="lenovo_p70" remote="device" />
+    <project path="device/lenovo/p70" name="iamshrikantjha/android_device_lenovo_p70" remote="device" />
 
 
     <!--Kernel-->
