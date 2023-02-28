@@ -2,27 +2,19 @@
 
 <manifest>
 
-    <remote name="vendor"
-            fetch="https://github.com"
-            revision="master" />
-
     <remote name="device"
             fetch="https://github.com"
-            revision="device"/>
+            revision="android-5.1"/>
 
     <remote name="kernel"
             fetch="https://github.com"
             revision="master"/>
 
     <!--Device Trees-->
-    <project path="device/lenovo/p70" name="iamshrikantjha/android_device_lenovo_p70" remote="device" />
+    <project path="device/lenovo/p70" name="ccsysadmin/android_device_lenovo_P70-TWRP" remote="device" />
 
 
     <!--Kernel-->
     <project path="kernel/lenovo/p70" name="dominicator/Lenovo-P70-5.1-Lollipop-Official-kernel-3.10" remote="kernel" />
 
-
-
-    <!-- Vendor folders -->
-    <project path="vendor/lenovo/p70" name="lenovo_p70" remote="vendor" />
 </manifest>
