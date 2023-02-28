@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<project path="device/lenovo/p70" name="android_device_lenovo_p70" remote="TeamWin" revision="android-5.1" />
 </manifest>
@@ -21,14 +20,14 @@
             revision="nitrogen-p-oss"/>
 
     <!--Device Trees-->
-    <project path="device/lenovo/p70" name="nysascape/device_xiaomi_platina" remote="device" />
+    <project path="device/lenovo/p70" name="lenovo_p70" remote="device" />
 
 
     <!--Kernel-->
-    <project path="kernel/lenovo/p70" name="MiCode/Xiaomi_Kernel_OpenSource" remote="kernel" />
+    <project path="kernel/lenovo/p70" name="lenovo_p70" remote="kernel" />
 
 
 
     <!-- Vendor folders -->
-    <project path="vendor/lenovo/p70" name="nysascape/vendor_xiaomi_platina" remote="vendor" />
+    <project path="vendor/lenovo/p70" name="lenovo_p70" remote="vendor" />
 </manifest>
