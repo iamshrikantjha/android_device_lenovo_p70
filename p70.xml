@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<project path="device/lenovo/p70" name="android_device_lenovo_p70" remote="TeamWin" revision="android-5.1" />
+</manifest>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+    <remote name="vendor"
+            fetch="https://github.com"
+            revision="master" />
+
+    <remote name="device"
+            fetch="https://github.com"
+            revision="lineage-16.0"/>
+
+    <remote name="kernel"
+            fetch="https://github.com"
+            revision="nitrogen-p-oss"/>
+
+    <!--Device Trees-->
+    <project path="device/lenovo/p70" name="nysascape/device_xiaomi_platina" remote="device" />
+
+
+    <!--Kernel-->
+    <project path="kernel/lenovo/p70" name="MiCode/Xiaomi_Kernel_OpenSource" remote="kernel" />
+
+
+
+    <!-- Vendor folders -->
+    <project path="vendor/lenovo/p70" name="nysascape/vendor_xiaomi_platina" remote="vendor" />
+</manifest>
