@@ -17,14 +17,14 @@
 
     <remote name="kernel"
             fetch="https://github.com"
-            revision="nitrogen-p-oss"/>
+            revision="master"/>
 
     <!--Device Trees-->
     <project path="device/lenovo/p70" name="lenovo_p70" remote="device" />
 
 
     <!--Kernel-->
-    <project path="kernel/lenovo/p70" name="lenovo_p70" remote="kernel" />
+    <project path="kernel/lenovo/p70" name="dominicator/Lenovo-P70-5.1-Lollipop-Official-kernel-3.10" remote="kernel" />
 
 
 
